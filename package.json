@@ -14,6 +14,11 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "coffee-loader": "^0.7.3",
+    "coffee-script": "^1.12.6",
+    "node-sass": "^4.5.3",
+    "pug": "^2.0.0-rc.2",
+    "sass-loader": "^6.0.5",
     "vue": "^2.3.3",
     "vue-router": "^2.3.1"
   },

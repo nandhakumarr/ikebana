@@ -1,0 +1,12 @@
+@mixin reset-space ()
+  margin: 0
+  padding: 0
+
+@mixin activate-opacity ($before: 0.5, $after: 1, $active-class: active)
+  opacity: $before
+  &:hover, #{active-class}
+    opacity: $after
+
+@mixin activate-background ($after: rgba($selection, 0.5), $active-class: active)
+  &:hover, #{active-class}
+    background: $after
